@@ -1,20 +1,23 @@
 # 埼玉のCOVID-19（コロナウイルス）に関するデータと分析
 
+埼玉県が公開しているデータを使って埼玉県のCOVID-19のデータ分析を行っています。
 
-## データに関して
+少しずつグラフなどは追加していきます。
 
-data.csv:参考サイト2で3月30日まで更新されていたcsvファイルに4月5日までの情報を追加したデータです。
+main.ipynb に手法なプログラムを記述していく予定です。
 
-## 使用例
+## main.ipynbの動かし方
 
-example.ipynb では年齢別の感染者数のヒストグラムをプロットしています。
+1. 埼玉県のオープンデータが公開されている[ページ](https://opendata.pref.saitama.lg.jp/data/dataset/covid19-jokyo)からcsvデータをダウンロードします
 
-## ブログ（データの可視化などは主にここで行っていきます）
+2. main.ipynbの最初のセルでデータを読み込むコードがあるので、ダウンロードしたファイルのpathに書き直してください
 
-[埼玉県のコロナウイルスに関するデータ](https://www.tcom242242.net/entry/2020/04/07/%e3%80%904%e6%9c%887%e6%97%a5%e6%9b%b4%e6%96%b0csv%e3%80%91%e5%9f%bc%e7%8e%89%e7%9c%8c%e3%81%ae%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b/)
+3. 後はmain.ipynbを実行することでグラフが出力されます。
 
+## 作成したグラフ
 
-## 参考サイト
+main.ipynbで作成したグラフは以下のようになります。
 
-1. [新型コロナウイルス感染症の埼玉県内の発生状況](https://www.pref.saitama.lg.jp/a0701/covid19/jokyo.html)
+## 参考文献
 1. [【埼玉県】新型コロナウイルス感染症の発生状況](https://opendata.pref.saitama.lg.jp/data/dataset/covid19-jokyo)
+1. [新型コロナウイルス感染症の埼玉県内の発生状況](https://www.pref.saitama.lg.jp/a0701/covid19/jokyo.html)
