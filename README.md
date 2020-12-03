@@ -27,6 +27,9 @@ main.ipynbで作成したグラフは以下のようになります。
 #### 各市町村の陽性者数の推移
 ![各市町村の陽性者数の推移](https://github.com/tocom242242/covid19-saitama-data-analysis/blob/master/figs/yousei_num_time_series_by_each_city.png)
 
+#### 各市町村の陽性者数の推移の相関
+![各市町村の陽性者数の推移](https://github.com/tocom242242/covid19-saitama-data-analysis/blob/master/figs/city_corr.png)
+
 
 ## 参考文献
 1. [【埼玉県】新型コロナウイルス感染症の発生状況](https://opendata.pref.saitama.lg.jp/data/dataset/covid19-jokyo)
